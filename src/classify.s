@@ -23,6 +23,7 @@
 #
 # Usage:
 #   main.s <M0_PATH> <M1_PATH> <INPUT_PATH> <OUTPUT_PATH>
+
 classify:
     li t0 5
     bne t0 a0 error_argc
